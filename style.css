@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,500&family=Big+Shoulders+Display:wght@700&family=DM+Sans:wght@400;700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Outfit:wght@400;700&family=Poppins:wght@200;400;600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Rubik:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,500&family=Big+Shoulders+Display:wght@700&family=Blaka+Hollow&family=DM+Sans:wght@400;700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Outfit:wght@400;700&family=Pacifico&family=Poppins:wght@200;400;600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Rubik:wght@400;500;700&display=swap');
+.colors{    
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-size: 11px;
+    font-weight: 400, 700;
+    color: hsl(228, 45%, 44%);    
+    color: hsl(10, 79%, 65%);
+    color: hsl(186, 34%, 60%);
+    color: hsl(25, 47%, 15%);
+    color: hsl(28, 10%, 53%);
+    color: hsl(27, 66%, 92%);
+    color: hsl(33, 100%, 98%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;    
+}
+
+body{
+    background-color: hsl(27, 66%, 92%);
+}
+
+h1{
+    color: hsl(27, 66%, 92%);
+    font-size: 1rem;
+    margin-top: 8px;
+}
+h2{
+    color: hsl(33, 100%, 98%);
+    margin-top: 5px;
+}
+h3{
+    font-size: 1.875rem;
+    color: hsl(25, 47%, 15%);
+    margin-top: 40px;
+    margin-left: -120px;
+}
+
+h4{
+    font-size: 1rem;
+    color: hsl(25, 6%, 62%);
+}
+
+h5{
+    font-size: 2.625rem;
+    color: hsl(25, 47%, 15%);
+}
+
+p{
+    font-size: 1rem;
+    color: hsl(25, 47%, 15%);
+    font-weight: 700;
+}    
+
+.maincontainer{
+    background-color: hsl(27, 66%, 92%);
+    display: flex; 
+    justify-content: center;   
+    width: 100vw;    
+}
+
+.head{
+    display: flex;    
+    align-items: center;
+    justify-content: center;    
+    background: hsl(10, 79%, 65%);
+    border-radius: 15px;
+    margin-top: 130px;
+    width: 538px;
+    height: 124px;
+}
+
+.head .head-inside{    
+    justify-content: space-between;
+    display: flex;
+    width: 478px;
+    height: 74px;
+}
+
+.left{       
+    height: 74px;    
+}
+
+.logo img{
+    width: 72px;
+}
+
+.logo{     
+    padding: 14px;     
+    height: 74px;    
+}
+
+.maincontent{
+    background-color: hsl(27, 66%, 92%);
+    display: flex; 
+    justify-content: center; 
+    height: 510px;
+    margin-top: 25px;     
+}
+
+.maincontent .content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 15px;
+    width: 538px;
+    height: 510px;
+}
+
+.chart{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(33, 100%, 98%);
+    margin-top: 68px;
+    display: flex;
+    width: 458px;
+    height: 150px;
+}
+
+.chart .rate-a{  
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;  
+    width: 48px;
+    height: 50px;
+}
+
+.chart .rate-b{  
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;   
+    width: 48px;
+    height: 100px;
+}
+
+.chart .rate-c{  
+    background-color: hsl(186, 34%, 60%);
+    border-radius: 5px;   
+    width: 48px;
+    height: 150px;
+}
+
+.chart .rate-d{  
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;   
+    width: 48px;
+    height: 90px;
+}
+
+.chart .rate-e{  
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;   
+    width: 48px;
+    height: 68px;
+}
+
+.chart .rate-f{  
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;   
+    width: 48px;
+    height: 125px;
+}
+
+.chart .rate-g{  
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;   
+    width: 48px;
+    height: 75px;
+}
+
+.chart > div:hover{
+    cursor: pointer;
+}
+
+.week{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 458px;
+    margin-left: 15px;          
+}
+
+.week > div{    
+    width: 69px;
+    color: hsl(25, 6%, 62%);    
+}
+
+.line{
+    width: 458px;
+    height: 36px;
+    border-bottom: 2px solid hsl(27, 13%, 87%);
+}
+
+.total{
+    display: flex;
+    flex-direction: row;
+    width: 458px;
+    height: 105px;
+}
+
+.total .month{    
+    width: 229px;
+    height: 105px;
+    margin-top: 36px;
+}
+
+.total .last-month{
+    margin-top: 65px;
+    width: 229px;
+    height: 105px;
+    margin-left: 170px;
+}
+
+.challenge{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: center;    
+}
+
+.challenge .the-end{
+    font-family: 'Pacifico', cursive;
+}
+
+.challenge .the-end span{
+    font-family: 'Pacifico', cursive;
+    color: rgb(4, 88, 60);
+}
+
+.challenge .the-end a{
+    font-family: 'Pacifico', cursive;
+}
+
+.challenge .the-end .name{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2rem;
+    color: rgb(223, 35, 21);
+}
+
+@media screen and (max-width:516px) {
+    .head{     
+        margin-top: 0px;
+        width: 375px;        
+    }
+    .head .head-inside{    
+        justify-content: space-between;
+        display: flex;
+        width: 375px;
+        height: 74px;
+    }
+
+    .left{   
+        margin-left: 15px;    
+        height: 74px;    
+    }
+
+    .maincontent{    
+        height: 375px; 
+        margin-top: 25px;     
+    }
+
+    .maincontent .content{
+        width: 400px;
+    }
+
+    .total{        
+        width: 375px;
+        height: 105px;
+    }
+
+    h3{
+        font-size: 1.875rem;        
+        margin-top: 40px;
+        margin-left: -30px;
+    }
+
+    h4{
+        font-size: 0.750rem;
+        color: hsl(25, 6%, 62%);
+    }
+
+    h5{
+        font-size: 2rem;
+        color: hsl(25, 47%, 15%);
+    }
+
+    .chart{
+        width: 375px;
+        height: 150px;
+    }
+
+    .week{
+        display: none;
+        
+    }             
+
+    .week > div{    
+        width: 0px;
+    }
+
+    .line{
+        width: 375px;       
+    }
+
+    .challenge{
+        margin-top: 150px;
+    }
+}
+
